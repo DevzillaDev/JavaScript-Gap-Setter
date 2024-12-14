@@ -15,5 +15,15 @@ This JavaScript snippet allows users to set the gap between elements by adding `
 
 ## Example
 ```html
-<div data-gap-x="10px">Element with column gap</div>
-<div data-gap-y="20px">Element with row gap</div>
+<!-- parent-div -->
+<div class="parent-div" data-gap-x="10px">
+  <div>Element with column gap</div>
+  <div>Element with column gap</div>
+  <div>Element with column gap</div>
+</div>
+<!-- parent-div -->
+<div class="parent-div" data-gap-y="20px">
+  <div>Element with row gap</div>
+  <div>Element with row gap</div>
+  <div>Element with row gap</div>
+</div>
