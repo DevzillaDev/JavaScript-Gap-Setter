@@ -3,6 +3,9 @@
 ## Description
 This JavaScript snippet allows users to set the gap between elements by adding `data-gapX` or `data-gapY` attributes to HTML elements.
 
+## Note
+Make sure the parent `<div>` container has `display: flex;` in its CSS to properly utilize the gap settings applied by this script.
+
 ## How It Works
 1. Fetches elements with `data-gap-x` or `data-gap-y` attributes.
 2. Retrieves the values of these attributes.
@@ -12,9 +15,6 @@ This JavaScript snippet allows users to set the gap between elements by adding `
 1. Add `data-gap-x` attribute to set column gap.
 2. Add `data-gap-y` attribute to set row gap.
 3. Values assigned to these attributes determine the gap size.
-
-## Important Note
-The parent div should have `display: flex;`
 
 ## Example
 ```html
