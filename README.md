@@ -13,6 +13,9 @@ This JavaScript snippet allows users to set the gap between elements by adding `
 2. Add `data-gap-y` attribute to set row gap.
 3. Values assigned to these attributes determine the gap size.
 
+## Important Note
+The parent div should have `display: flex;`
+
 ## Example
 ```html
 <!-- parent-div -->
